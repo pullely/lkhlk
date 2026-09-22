@@ -46,11 +46,7 @@
         {
           "binding": "BILLING_WORKER",
           "service": "lkhlk-billing-worker-stage"
-        },
-        {
-          "binding": "NOTIFICATIONS_WORKER",
-          "service": "lkhlk-notifications-worker-stage"
-        }
+        }// @cycle-break:membership-worker->notifications-worker:LAogICAgICAgIHsKICAgICAgICAgICJiaW5kaW5nIjogIk5PVElGSUNBVElPTlNfV09SS0VSIiwKICAgICAgICAgICJzZXJ2aWNlIjogImxraGxrLW5vdGlmaWNhdGlvbnMtd29ya2VyLXN0YWdlIgogICAgICAgIH0=
       ]
     },
     "prod": {
@@ -75,11 +71,7 @@
         {
           "binding": "BILLING_WORKER",
           "service": "lkhlk-billing-worker-prod"
-        },
-        {
-          "binding": "NOTIFICATIONS_WORKER",
-          "service": "lkhlk-notifications-worker-prod"
-        }
+        }// @cycle-break:membership-worker->notifications-worker:LAogICAgICAgIHsKICAgICAgICAgICJiaW5kaW5nIjogIk5PVElGSUNBVElPTlNfV09SS0VSIiwKICAgICAgICAgICJzZXJ2aWNlIjogImxraGxrLW5vdGlmaWNhdGlvbnMtd29ya2VyLXByb2QiCiAgICAgICAgfQ==
       ]
     }
   }
