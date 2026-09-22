@@ -1,0 +1,11 @@
+{
+  "reponame": "lkhlk",
+  "productname": "new-proj",
+  "productdomain": "asa.com",
+  "apibaseurl": "https://api.asa.com",
+  "subdomain": "nexo-7be",
+  "orunWorkspace": "org_c759ee9d4a1c4407b83afa4b6efa4e58",
+  "githuborg": "pullely",
+  "epicSlug": "infra-baselining",
+  "domain": false
+}
